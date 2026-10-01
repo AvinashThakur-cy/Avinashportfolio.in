@@ -30,11 +30,11 @@ const expertise = [
 const techGroups = [
   {
     category: 'Programming',
-    tags: ['Python', 'C++', 'Java', 'C', 'DSA', 'DBMS', 'Bash'],
+    tags: ['Python', 'C++', 'Java', 'C', 'Data Structures & Algorithms', 'DBMS', 'Bash'],
   },
   {
     category: 'Cybersecurity',
-    tags: ['Network Security', 'Threat Analysis', 'VAPT', 'Security Analysis', 'Risk Assessment', 'Ethical Hacking'],
+    tags: ['Network Security', 'Threat Analysis', 'VAPT', 'Analysis', 'Risk Assessment', 'Ethical Hacking'],
   },
   {
     category: 'Security Operations',
@@ -59,41 +59,49 @@ const projects = [
     number: '01',
     name: 'CYBERSATHI',
     title: 'AI-Powered Blockchain Security & Threat Intelligence Platform',
-    description: 'AI-driven blockchain security and threat intelligence platform focused on wallet intelligence, validator analysis, and operational risk monitoring.',
-    features: ['Blockchain Security', 'Wallet Intelligence', 'Node Health', 'Risk Scoring'],
-    stack: ['Python', 'Blockchain', 'Cybersecurity', 'AI/ML', 'JavaScript'],
+    description: 'Blockchain security platform for threat monitoring, wallet intelligence, validator analysis, node health monitoring, and incident investigation.',
+    features: ['Threat Monitoring', 'Wallet Intelligence', 'Validator Analysis', 'Node Health', 'Risk Scoring', 'Anomaly Analysis'],
+    stack: ['HTML', 'CSS', 'JavaScript', 'Python', 'Blockchain', 'AI/ML', 'Cybersecurity'],
   },
   {
     number: '02',
     name: 'TRINETRA AI',
     title: 'AI-Powered Campus Safety & Risk Intelligence Platform',
-    description: 'Security-focused intelligence platform designed to assess risk patterns, detect anomalies, and improve campus safety through actionable insights.',
-    features: ['Threat Detection', 'Anomaly Analysis', 'Risk Intelligence', 'Safety Monitoring'],
-    stack: ['AI', 'Threat Analysis', 'Security Operations', 'Python'],
+    description: 'AI-assisted campus safety platform for incident monitoring, security telemetry, risk intelligence, restricted-zone management, and local-first processing.',
+    features: ['Incident Analysis', 'Risk Assessment', 'Evidence Processing', 'Security Mapping', 'Incident Management'],
+    stack: ['HTML', 'CSS', 'JavaScript', 'Python', 'AI/ML', 'SQLite', 'Cybersecurity'],
   },
   {
     number: '03',
     name: 'CYBERRAKSHAK',
     title: 'AI-Powered Security Operations & Threat Assessment Platform',
-    description: 'Focused on threat assessment, security operations workflows, and AI-based analysis to strengthen digital defence and response readiness.',
-    features: ['Security Operations', 'Threat Assessment', 'Incident Analysis', 'Log Intelligence'],
-    stack: ['SIEM', 'Python', 'Threat Analysis', 'Security Operations', 'AI'],
+    description: 'AI-assisted security platform for security posture monitoring, vulnerability assessment, risk scoring, threat analysis, and automated security scanning.',
+    features: ['Asset Monitoring', 'Attack-Path Analysis', 'Risk Classification', 'Automated Scanning', 'AI Security Copilot'],
+    stack: ['HTML', 'CSS', 'JavaScript', 'Python', 'AI/ML', 'Cybersecurity'],
   },
   {
     number: '04',
     name: 'CYBERTECH',
     title: 'AI-Driven Cloud Cyber Defence & Incident Response Platform',
-    description: 'Cloud and web security framework for evaluating exposure, strengthening posture, and supporting incident response workflows.',
-    features: ['Cloud Security', 'OWASP', 'Web Security', 'Risk Response'],
-    stack: ['Azure', 'OWASP', 'Cloud Security', 'Web Security', 'AI'],
+    description: 'AI-driven cloud security platform for threat monitoring, risk assessment, behavioural analysis, security posture management, and incident response.',
+    features: ['IP Investigation', 'Vulnerability Scanning', 'Compliance Auditing', 'Access-Policy Management', 'Attack Simulation Lab'],
+    stack: ['HTML', 'CSS', 'JavaScript', 'Python', 'AI/ML', 'Cloud Security', 'Cybersecurity'],
   },
 ]
 
 const certifications = [
   'Cybersecurity Analyst Job Simulation — FORAGE',
+  'Cybersecurity Job Simulation — FORAGE',
   'Cyber Security Assessment Certification — LEARNTUBE.AI',
-  'Microsoft Security, Compliance, and Identity Fundamentals',
-  'Cybersecurity Fundamentals',
+  'Advanced Software Engineering Job Simulation — FORAGE',
+  'Solutions Architecture Job Simulation — FORAGE',
+  'Cybersecurity Roadmap 2025: Start Your Journey to Become a Cyber Pro — SKILLECTED',
+  'Cyber Security Workshop — THETECHUNIQUE ACADEMY',
+  'Python Programming Fundamentals — MICROSOFT',
+  'Git & GitHub Version Control — MICROSOFT',
+  'Blockchain Technology Fundamentals — MICROSOFT',
+  'Linux System Administration & Fundamentals — MICROSOFT',
+  'Cyber Security Fundamentals — MICROSOFT',
 ]
 
 function LoadingScreen() {
@@ -135,6 +143,7 @@ function LoadingScreen() {
 function App() {
   const [isLoading, setIsLoading] = useState(true)
   const reduceMotion = useReducedMotion()
+  const resumeUrl = `${import.meta.env.BASE_URL}assets/resume1.pdf`
 
   useEffect(() => {
     const timer = window.setTimeout(() => setIsLoading(false), 1100)
@@ -161,7 +170,7 @@ function App() {
             </a>
           ))}
         </nav>
-        <a className="resume-link" href={`${import.meta.env.BASE_URL}assets/Avinash-Thakur-Resume.pdf`} target="_blank" rel="noreferrer">
+        <a className="resume-link" href={resumeUrl} target="_blank" rel="noreferrer">
           RESUME
         </a>
       </header>
@@ -186,7 +195,7 @@ function App() {
                 <h1>
                   <span>CYBER</span>
                   <span>SECURITY</span>
-                  <span>ENGINEER</span>
+                  <span>STUDENT</span>
                 </h1>
               </div>
 
@@ -363,9 +372,9 @@ function App() {
             <div className="contact-links">
               <a href="mailto:at0297284@gmail.com">EMAIL — at0297284@gmail.com</a>
               <a href="https://www.linkedin.com/in/avinash-singh-thakur" target="_blank" rel="noreferrer">LINKEDIN — Avinash Singh Thakur</a>
-              <a href="https://github.com/avinash9219s" target="_blank" rel="noreferrer">GITHUB — avinash9219s</a>
+              <a href="https://github.com/AvinashThakur-cy" target="_blank" rel="noreferrer">GITHUB — AvinashThakur-cy</a>
               <a href="tel:+919611111828">PHONE — +91-9611111828</a>
-              <a className="download-link" href={`${import.meta.env.BASE_URL}assets/Avinash-Thakur-Resume.pdf`} target="_blank" rel="noreferrer">DOWNLOAD RESUME →</a>
+              <a className="download-link" href={resumeUrl} target="_blank" rel="noreferrer">DOWNLOAD RESUME →</a>
             </div>
           </div>
         </motion.section>

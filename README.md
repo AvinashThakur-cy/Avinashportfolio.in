@@ -19,7 +19,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 1. Create a **public** GitHub repository and push this project to its `main` or `master` branch.
 2. In the repository, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source.
-3. The included workflow builds the site and publishes it on each push. Its public URL will be `https://avinash9219s.github.io/<repository-name>/`.
+3. The included workflow builds the site and publishes it on each push. The portfolio is available at `https://avinashthakur-cy.github.io/Avinashportfolio.in/`.
 
 The first deployment starts after the workflow file is pushed. Check the repository's **Actions** tab for its status and deployment URL.
 
