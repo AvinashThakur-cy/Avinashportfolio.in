@@ -371,7 +371,7 @@ function App() {
 
             <div className="contact-links">
               <a href="mailto:at0297284@gmail.com">EMAIL — at0297284@gmail.com</a>
-              <a href="https://www.linkedin.com/in/avinash-singh-thakur" target="_blank" rel="noreferrer">LINKEDIN — Avinash Singh Thakur</a>
+              <a href="https://www.linkedin.com/in/avinash-thakur-246222427" target="_blank" rel="noreferrer">LINKEDIN — Avinash Thakur</a>
               <a href="https://github.com/AvinashThakur-cy" target="_blank" rel="noreferrer">GITHUB — AvinashThakur-cy</a>
               <a href="tel:+919611111828">PHONE — +91-9611111828</a>
               <a className="download-link" href={resumeUrl} target="_blank" rel="noreferrer">DOWNLOAD RESUME →</a>
