@@ -191,11 +191,11 @@ function App() {
           >
             <div className="hero-window-inner">
               <div className="hero-left-copy">
-                <p className="eyebrow">HI, I&apos;M AVINASH THAKUR</p>
+                <p className="eyebrow">HELLO, I&apos;M AVINASH THAKUR</p>
                 <h1>
                   <span>CYBER</span>
                   <span>SECURITY</span>
-                  <span>STUDENT</span>
+                  <span>ENGINEER</span>
                 </h1>
               </div>
 
@@ -244,7 +244,7 @@ function App() {
 
             <div className="about-copy">
               <p>
-                I am Avinash Thakur, a cybersecurity-focused technology student based in Bengaluru, India, currently pursuing B.Tech in Computer Science in Cyber Security at VTU | BKIT Bhalki. My work centres on security, AI, blockchain, threat intelligence, and practical security system design.
+                I am Avinash Thakur, a cybersecurity-focused technology engineer based in Bengaluru, India, currently pursuing B.Tech in Computer Science in Cyber Security at VTU | BKIT Bhalki. My work centres on security, AI, blockchain, threat intelligence, and practical security system design.
               </p>
               <p>
                 I build projects and learning experiences focused on detection, risk assessment, blockchain security, and intelligent defence. My goal is to create systems that are resilient, adaptive, and security-aware in modern digital environments.
@@ -382,7 +382,7 @@ function App() {
 
       <footer className="site-footer">
         <span>AVINASH THAKUR</span>
-        <span>CYBERSECURITY STUDENT</span>
+        <span>CYBERSECURITY ENGINEER</span>
         <span>AI &amp; SECURITY BUILDER</span>
       </footer>
     </div>
